@@ -17,18 +17,15 @@ jobs:
       - name: Gerar métricas e linguagens
         uses: lowlighter/metrics@latest
         with:
-          # Utiliza o seu token pessoal para ler os repositórios privados
           token: ${{ secrets.PA_TOKEN }}
-          
-          # Nome do ficheiro que será guardado no repositório
           filename: github-metrics.svg
           
-          # O que vai aparecer na imagem
-          base: header, activity, repositories
+          # AQUI ESTÁ O SEGREDO: Tiramos o "header". 
+          # Assim mantém os commits e repositórios, mas oculta a data de criação!
+          base: activity, repositories
           
-          # Ativar o cartão de linguagens
           plugin_languages: yes
           plugin_languages_details: percentage
           
-          # Tema escuro (opcional, combina com a cobrinha azul)
-          config_theme: dark
+          # Mantive o tema claro (light) igual ao da sua imagem, para combinar.
+          config_theme: light
