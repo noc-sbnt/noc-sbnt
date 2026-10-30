@@ -29,11 +29,10 @@
 
 ---
 
-### 📊 Estatísticas
+### 📊 As Minhas Estatísticas & Linguagens
 
 <div align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=noc-sbnt&show_icons=true&theme=radical&include_all_commits=true&count_private=true" alt="Estatísticas do GitHub" />
-  <img height="180em" src="https://github-readme-streak-stats.herokuapp.com/?user=noc-sbnt&theme=radical" alt="GitHub Streak" />
+  <img src="https://raw.githubusercontent.com/noc-sbnt/noc-sbnt/main/github-metrics.svg" alt="Estatísticas do GitHub" />
 </div>
 
 ---
